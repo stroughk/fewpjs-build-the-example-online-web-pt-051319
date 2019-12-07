@@ -2,7 +2,6 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
-// Your JavaScript code goes here!
 let glyphStates = {
   "♡": "♥",
   "♥": "♡"
@@ -34,8 +33,6 @@ function likeCallback(e) {
 for (let glyph of articleHearts) {
   glyph.addEventListener("click", likeCallback);
 }
-
-
 
 
 //------------------------------------------------------------------------------
